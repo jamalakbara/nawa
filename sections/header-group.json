@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -33,9 +42,9 @@
         "logo_position": "middle-center",
         "menu": "main-menu",
         "menu_1": "Terms & Conditions",
-        "menu_1_url": "shopify:\/\/pages\/terms-conditions",
+        "menu_1_url": "shopify://pages/terms-conditions",
         "menu_2": "Privacy Policy",
-        "menu_2_url": "shopify:\/\/pages\/privacy-policy",
+        "menu_2_url": "shopify://pages/privacy-policy",
         "menu_3": "Instagram",
         "menu_3_url": "#",
         "menu_type_desktop": "drawer",
@@ -50,10 +59,17 @@
         "padding_top": 12,
         "padding_bottom": 0
       }
+    },
+    "video_custom_REFeFr": {
+      "type": "video-custom",
+      "settings": {
+        "video": "shopify://files/videos/VIDEO WEB_1.mp4"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "video_custom_REFeFr"
   ]
 }
