@@ -1,0 +1,47 @@
+{% style %}
+.banner-custom {
+  background: url({{ section.settings.image | img_url: 'master' }}) no-repeat center center;
+  background-size: cover;
+}
+
+@media (max-width: 768px){
+  .banner-custom {
+    background: url({{ section.settings.image_mobile | img_url: 'master' }}) no-repeat center center;
+    background-size: cover;
+  }
+}
+{% endstyle %}
+
+<div class="banner-custom">
+</div>
+
+{% schema %}
+{
+  "name": "Banner Custom",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Desktop"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image Desktop"
+    },
+    {
+      "type": "header",
+      "content": "Mobile"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Image Mobile"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner"
+    }
+  ]
+}
+{% endschema %}

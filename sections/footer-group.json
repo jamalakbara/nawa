@@ -1,0 +1,65 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "d6c2cc91-0556-4cdd-8638-0d736e0302a6": {
+          "type": "link_list",
+          "settings": {
+            "heading": "About NAWA",
+            "menu": "footer"
+          }
+        },
+        "35b36b25-a567-4aa4-bf22-79c4f9bf4d9d": {
+          "type": "custom_link",
+          "settings": {
+            "heading": "Contact",
+            "link_1": "https:\/\/wa.me\/628121818707",
+            "label_1": "+62 812-1818-707",
+            "link_2": "mailto:707help@sosco.id",
+            "label_2": "707help@sosco.id",
+            "link_3": "",
+            "label_3": ""
+          }
+        },
+        "f26d5258-b19f-4964-b8fc-b5e1e1274a5e": {
+          "type": "custom_link",
+          "settings": {
+            "heading": "Follow Us",
+            "link_1": "https:\/\/instagra,.com",
+            "label_1": "Instagram",
+            "link_2": "https:\/\/facebook.com",
+            "label_2": "Facebook",
+            "link_3": "https:\/\/youtube.com",
+            "label_3": "Youtube"
+          }
+        }
+      },
+      "block_order": [
+        "d6c2cc91-0556-4cdd-8638-0d736e0302a6",
+        "35b36b25-a567-4aa4-bf22-79c4f9bf4d9d",
+        "f26d5258-b19f-4964-b8fc-b5e1e1274a5e"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

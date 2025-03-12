@@ -1,0 +1,235 @@
+.napigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+  &__link-logo{
+    flex: 0
+  }
+
+  &__menu{
+    flex: 1;
+    display: flex;
+    gap: 16px;
+  }
+
+  &__link{
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+    // color: rgba(0,0,0,1);
+    border-bottom: 1px solid rgba(0,0,0,0);
+    transition: color 0.3s ease-in-out;
+
+    span{
+      transition: transform 0.2s ease;
+    }
+    
+    &.active{
+      color: rgba(0,0,0,1);
+      border-bottom: 1px solid rgba(0,0,0,1);
+      
+      span{
+        transform: rotate(90deg);
+      }
+    }
+    
+    &:hover{
+      color: rgba(0,0,0,1);
+      border-bottom: 1px solid rgba(0,0,0,1);
+
+      span{
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+  &__search-cart{
+    flex: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo{
+    width: 50px;
+    height: 50px;
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.submenu-napigation{
+  padding: 16px;
+  // border-top: 1px solid rgba(0,0,0,0.1);
+  // border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-top: 1px solid rgba(0,0,0,0.8);
+  border-bottom: 1px solid rgba(0,0,0,0.8);
+
+  &__menu{
+    display: none;
+    align-items: center;
+    gap: 16px;
+
+    &.active{
+      display: flex;
+    }
+  }
+
+  &__link{
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    // color: rgba(0,0,0,0.5);
+    color: rgba(0,0,0,0.8);
+    border-bottom: 1px solid rgba(0,0,0,0);
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+    
+
+    &.active{
+      color: rgba(0,0,0,1);
+      border-bottom: 1px solid rgba(0,0,0,1);
+    }
+
+    &:hover{
+      color: rgba(0,0,0,1);
+      border-bottom: 1px solid rgba(0,0,0,1);
+    }
+  }
+}
+
+.page-width-custom{
+  margin: 0 16px;
+}
+
+.product-form__buttons-custom{
+  max-width: unset !important;
+}
+
+.button-custom{
+  padding: 0;
+  margin-bottom: 0 !important;
+  max-width: unset !important;
+}
+
+.banner-custom{
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.color-white{
+  color: white;
+}
+
+.header__icon--menu[aria-expanded='true']::before {
+  background: unset;
+}
+
+#menu-drawer{
+  background-color: rgba($color: #000000, $alpha: 0.5) !important;
+  top: 0;
+  padding-top: 10rem;
+
+  ul{
+    li{
+      color: white !important;
+      a, summary, button{
+        color: white !important;
+      }
+    }
+  }
+}
+
+.menu-drawer__navigation{
+  display: flex;
+  flex-direction: column;
+  // gap: 50px;
+  justify-content: space-between;
+}
+
+.menu-opening{
+  .header__icon--menu{
+    position: relative !important;
+    z-index: 10 !important;
+    color: white !important;
+  }
+}
+
+.menu-drawer__submenu{
+  background-color: transparent !important;
+}
+
+// ini harusnya gaada di mobile
+.header-large-absolute-transparent{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  background-color: transparent;
+}
+
+// change image become white
+.image-white{
+  filter: brightness(0) invert(1);
+}
+
+.display-none{
+  display: none !important;
+}
+
+.supported-menu{
+  font-size: 1.3rem !important;
+  a{
+    text-decoration: none;
+  }
+}
+
+// for mobile
+@media (max-width: 768px){
+  .price{
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 989px){
+  .container-napigation{
+    display: none;
+  }
+
+  .mobile-napigation-drawer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    header-drawer, #cart-icon-bubble{
+      margin: 0 !important;
+    }
+  }
+}
+
+@media (min-width: 990px){
+  .header-large-absolute-transparent{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background-color: transparent;
+  }
+  
+  .just-mobile{
+    display: none !important;
+  }
+
+  .cart-notification-wrapper{
+    position: inherit !important;
+  }
+
+  .cart-notification-wrapper:is(.page-width) > .cart-notification{
+    right: 0 !important;
+  }
+}
