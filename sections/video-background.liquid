@@ -198,15 +198,9 @@
 		max-width: 500px;
 		margin: 0 auto;
 	}
-    @media screen (max-width: 768px) {
-      video {
-        width: 100%;
-        height: 100vh;
-        display: block;
-        margin: 0 auto;
-        object-fit: cover;
-      }
-    }
+    @media screen and (max-width: 767px) {
+		body.template-index .main-content .videoBackground {
+			margin-top: -35px;
 		}
 		.videoBackground .fullscreen-video-wrap {
 			z-index: -1;
