@@ -8,34 +8,6 @@
  * ------------------------------------------------------------
  */
 {
-  "sections": {
-    "video_background_XVCRnw": {
-      "type": "video-background",
-      "blocks": {
-        "video_AFGh9C": {
-          "type": "video",
-          "settings": {
-            "video_link": "https://cdn.shopify.com/videos/c/o/v/7a933ad5e5e14cba874c0ccf8d6f0ba8.mp4",
-            "video_image": "shopify://shop_images/bg.png",
-            "video_link_mobile": "",
-            "overlay_opacity": 0,
-            "title": "",
-            "text": "",
-            "color_text": "#ffffff",
-            "button_label": "",
-            "button_link": "",
-            "color_btn_bg": "#ffffff",
-            "color_btn_text": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "video_AFGh9C"
-      ],
-      "settings": {}
-    }
-  },
-  "order": [
-    "video_background_XVCRnw"
-  ]
+  "sections": {},
+  "order": []
 }

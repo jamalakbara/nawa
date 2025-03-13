@@ -42,11 +42,11 @@
         "logo_position": "middle-center",
         "menu": "coming-soon",
         "menu_1": "Terms & Conditions",
-        "menu_1_url": "shopify://pages/terms-conditions",
+        "menu_1_url": "shopify:\/\/pages\/terms-conditions",
         "menu_2": "Privacy Policy",
-        "menu_2_url": "shopify://pages/privacy-policy",
+        "menu_2_url": "shopify:\/\/pages\/privacy-policy",
         "menu_3": "Instagram",
-        "menu_3_url": "https://www.instagram.com/itsjinggles?igsh=NDR0NnNtdmVtOWZ0",
+        "menu_3_url": "https:\/\/www.instagram.com\/itsjinggles?igsh=NDR0NnNtdmVtOWZ0",
         "menu_type_desktop": "drawer",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
@@ -59,10 +59,43 @@
         "padding_top": 12,
         "padding_bottom": 0
       }
+    },
+    "video_custom_REFeFr": {
+      "type": "video-custom",
+      "disabled": true,
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/VIDEO WEB_1.mp4"
+      }
+    },
+    "video_background_MXk4Mr": {
+      "type": "video-background",
+      "blocks": {
+        "video_y7xrJj": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7a933ad5e5e14cba874c0ccf8d6f0ba8.mp4",
+            "video_image": "shopify:\/\/shop_images\/bg.png",
+            "overlay_opacity": 0,
+            "title": "",
+            "text": "",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "video_y7xrJj"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "video_custom_REFeFr",
+    "video_background_MXk4Mr"
   ]
 }
