@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -7,6 +16,7 @@
       "blocks": {
         "d6c2cc91-0556-4cdd-8638-0d736e0302a6": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "About NAWA",
             "menu": "footer"
@@ -16,7 +26,7 @@
           "type": "custom_link",
           "settings": {
             "heading": "Contact",
-            "link_1": "https:\/\/wa.me\/628121818707",
+            "link_1": "https://wa.me/628121818707",
             "label_1": "+62 812-1818-707",
             "link_2": "mailto:707help@sosco.id",
             "label_2": "707help@sosco.id",
@@ -28,11 +38,11 @@
           "type": "custom_link",
           "settings": {
             "heading": "Follow Us",
-            "link_1": "https:\/\/instagra,.com",
+            "link_1": "https://instagra,.com",
             "label_1": "Instagram",
-            "link_2": "https:\/\/facebook.com",
+            "link_2": "https://facebook.com",
             "label_2": "Facebook",
-            "link_3": "https:\/\/youtube.com",
+            "link_3": "https://youtube.com",
             "label_3": "Youtube"
           }
         }
