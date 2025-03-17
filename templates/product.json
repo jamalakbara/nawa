@@ -62,7 +62,7 @@
             "heading": "FIND US ON MARKETPLACE BELOW",
             "icon": "none",
             "content": "<p><a href=\"https://shopee.co.id\" title=\"https://shopee.co.id\">Shop via Shopee</a></p>",
-            "page": "{{ product.metafields.custom.sizing.value }}"
+            "page": ""
           }
         },
         "quantity_selector": {
