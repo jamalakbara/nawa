@@ -443,6 +443,8 @@
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
+            {%- when 'shopee' -%}
+              {%- render 'shopee-buttons', block: block -%}
             {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
                 {% liquid
@@ -868,6 +870,23 @@
           "default": true,
           "label": "t:sections.main-product.blocks.buy_buttons.settings.show_gift_card_recipient.label",
           "info": "t:sections.main-product.blocks.buy_buttons.settings.show_gift_card_recipient.info"
+        }
+      ]
+    },
+    {
+      "type": "shopee",
+      "name": "Shopee Button",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "url",
+          "id": "shopee_url",
+          "label": "URL"
+        },
+        {
+          "type": "text",
+          "id": "shopee_text",
+          "label": "Button Text"
         }
       ]
     },
