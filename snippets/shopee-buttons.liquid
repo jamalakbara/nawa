@@ -1,0 +1,5 @@
+{% if block.settings.shopee_url %}
+<a href="{{ block.settings.shopee_url }}" class="shopee-btn button button--full-width button--secondary" target="_blank">{{ block.settings.shopee_text | default: "Buy On Shopee" }}</a>
+{% else %}
+<div class="shopee-btn button button--full-width button--secondary">{{ block.settings.shopee_text | default: "Buy On Shopee" }}</div>
+{% endif %}
