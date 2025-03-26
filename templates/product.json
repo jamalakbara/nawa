@@ -58,6 +58,7 @@
         },
         "collapsible_tab_Epq94J": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "FIND US ON MARKETPLACE BELOW",
             "icon": "none",
@@ -70,8 +71,16 @@
           "disabled": true,
           "settings": {}
         },
+        "shopee_qizWwc": {
+          "type": "shopee",
+          "settings": {
+            "shopee_url": "https://shopee.co.id/0ntlkobfak#product_list",
+            "shopee_text": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
@@ -95,6 +104,7 @@
         "collapsible_tab_GHxpmr",
         "collapsible_tab_Epq94J",
         "quantity_selector",
+        "shopee_qizWwc",
         "buy_buttons",
         "share"
       ],
